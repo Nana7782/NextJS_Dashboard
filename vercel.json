@@ -1,8 +1,0 @@
-{
-    "installCommand": "pnpm install --frozen-lockfile",
-    "buildCommand": "pnpm run build",
-    "functions": {
-      "api/**/*.js": { "runtime": "nodejs18.x" }
-    },
-    "builds": [{ "src": "package.json", "use": "@vercel/next" }]
-  }
